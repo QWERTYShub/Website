@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shubhangi Snacks</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="reset-button">
+      <button onclick="resetValues()"><span aria-setsize="50px"><pre>   Reset   </pre></span></button>
+    </div>
+  <div class="container">
+    <h1>Shubhangi Snacks</h1>
+    <div class="items">
+      <div class="item">
+        <img src="th.jpeg" alt="Chai" class="item-image">
+        <h3>Chai - ₹10</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="2.jpg" alt="Drinking Water" class="item-image">
+        <h3>Drinking Water (Small) - ₹10</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="3.jpg" alt="Drinking Water" class="item-image">
+        <h3>Drinking Water (Big) - ₹20</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="1.jpg" alt="Pav" class="item-image">
+        <h3>Pav - ₹4</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="4.jpg" alt="Vada" class="item-image">
+        <h3>Vada - ₹13</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+     
+      <div class="item">
+        <img src="download.jpeg" alt="vadapav" class="item-image">
+        <h3>vada pav - ₹15</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="moong.jpeg" alt="Moong bhaji" class="item-image">
+        <h3>Moong pakoda - ₹25</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="7.png" alt="batata bhaji" class="item-image">
+        <h3>batata bhaji - ₹25</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="8.jpeg" alt="bhaji pav" class="item-image">
+        <h3>bhaji pav - ₹15</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="9.jpeg" alt="Mirchi pakoda" class="item-image">
+        <h3>Mirchi Pakoda - ₹20</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+      <div class="item">
+        <img src="9.jpeg" alt="Mirchi" class="item-image">
+        <h3>Mirchi Half- ₹10</h3>
+        <button class="decrement">-</button>
+        <input type="text" class="quantity" value="0">
+        <button class="increment">+</button>
+      </div>
+    </div>
+    <div class="subtotal">Total Subtotal: ₹<span id="totalSubtotal">0</span></div>
+    <button id="printButton">Print Bill</button>
+    <div id="billResult">
+      <!-- Bill details will appear here -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
